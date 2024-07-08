@@ -18,11 +18,3 @@ function conversion(deg)
 
 const conversionF = deg => typeof deg === "number" ? Math.trunc(deg * (9/5) + 32) : "donner en entrer non correct";
 // console.log(conversionF('12'));
-
-/* exercice 2 Écrire un programme qui demande à l'utilisateur une série de nombres, puis calcule et affiche leur moyenne.*/
-var nb =prompt("Combien avez-vous de notes à entrer ?");
-cpte = 0;
-for(var i=1; i <= nb; i++) {
-    cpte += prompt('note ' + i) * 1
-}
-console.log('moyenne des '+ nb + ' notes : ' + cpte / nb)
